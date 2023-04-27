@@ -1,0 +1,19 @@
+<script>
+//ENTRADA
+const salarioFixo = Number(prompt("qual é o seu salario fixo"));
+const carros = Number(prompt("quantos carros foram vendidos"));
+const vendas = Number(prompt("qual o valor total de vendas"));
+
+//PROCESSAMENTO
+const calculo1 = (salarioFixo) + (225 * carros);
+const calculo2 = ((5 * vendas)/100);
+const calculo3 = (calculo1 + calculo2);
+const calculo4 = ((20 * calculo3)/100);
+const calculo5 = (calculo3 - calculo4);
+const calculo6 = Math.ceil(calculo5)
+
+//SAIDA
+document.write ("a remuneração final será de: " + calculo6);
+
+
+</script>

@@ -1,0 +1,10 @@
+<script>
+const preçoOriginal = prompt ("qual é o preço original do produto");
+const preçoDesconto = prompt ("qual foi o preço do produto com o desconto");
+
+valorDesconto = preçoOriginal - preçoDesconto;
+valorPorcentagem = ((valorDesconto * 100)/preçoOriginal);
+valorP_A = Math.ceil (valorPorcentagem);
+alert ("a porcentagem do desconto é " + valorP_A + "%");
+
+</script>

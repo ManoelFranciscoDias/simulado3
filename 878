@@ -1,0 +1,11 @@
+<script>
+const peso = prompt ("informe o quanto voce pesa");
+novoPesoEma = ((15 * peso)/100);
+novoPesoEmaA = Math.ceil(novoPesoEma);
+
+novoPesoEng = (((20 * peso)/100) + peso);
+novoPesoEngA = Math.ceil(novoPesoEng);
+
+alert (novoPesoEma);
+
+</script>

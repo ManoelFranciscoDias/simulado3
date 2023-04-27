@@ -1,0 +1,16 @@
+<script>
+//ENTRADA
+const cabeçaDeGado = Number(prompt("quantas quantidades de cabeça de gado fazendeiro tem?"));
+const herdeiros = Number(prompt("quantos herdeiros o fazendeiro possui?"));
+
+//PROCESSAMENTO
+const calculo = ((15 * cabeçaDeGado)/100);
+const calculo2 = (cabeçaDeGado - calculo);
+
+const calculo3 = (calculo2 / herdeiros); 
+const calculo4 = Math.ceil (calculo3);
+
+//SAIDA
+document.write ("restarão para cada herdeiro " + calculo4 + " cabeça de gado");
+
+</script>

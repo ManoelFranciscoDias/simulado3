@@ -1,0 +1,16 @@
+<script>
+//ENTRADA
+const tempo = Number (prompt("quanto tempo voce gastou durante a a viagem"));
+const litros = Number (prompt("quantos litros de combustivel foi consumido"));
+const preço = Number (prompt("qual o preço do litro do combustivel"));
+const quilimetragem = Number (prompt("qual foi a quilometragem percorrida"));
+
+//PROCESSAMENTO
+const calculo1 = (quilimetragem / tempo);
+const calculo2 = (quilimetragem / litros);
+const calculo3 = (litros * preço);
+const calculo4 = (calculo3 / litros); 
+
+//SAIDA
+alert("a velocidade media da viagem será de: " + calculo1 + "km/h, o consumo medio de combustivel será de: " + calculo2 + "L, o custo total de combustivel sera de: R$" + calculo3 + ", e o custo da viagem por km rodade de: R$" + calculo4 );
+</script>
